@@ -76,6 +76,12 @@
             background-color: #333333; /* Darker shade of black */
         }
 
+        .circle-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
         .circle {
             display: flex;
             align-items: center;
@@ -85,7 +91,6 @@
             border-radius: 50%;
             background-color: #000000; /* Black background color */
             color: #ffffff; /* White text color */
-            margin-bottom: 20px;
             font-size: 18px;
             font-weight: bold;
         }
@@ -96,7 +101,6 @@
             color: #ffffff; /* White text color */
             padding: 20px;
             box-sizing: border-box;
-            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -108,12 +112,19 @@
         </div>
     </div>
 
-    <div class="repository-wrapper">
-        <div class="table-box">
-            <h2>Table</h2>
-            <p>This is a table demonstrating something...</p>
-        </div>
+    <div class="circle-container">
+        <div class="circle">eBPF</div>
+        <div class="circle">VPP</div>
+        <div class="circle">Linux Networking</div>
+        <div class="circle">DPDK</div>
+    </div>
 
+    <div class="table-box">
+		<h2>Table</h2>
+        <p>This is a table demonstrating something...</p>
+    </div>
+
+    <div class="repository-wrapper">
         <div class="repository-box">
             <h2>Folder 1</h2>
             <p>Snippet from README file of Folder 1...</p>

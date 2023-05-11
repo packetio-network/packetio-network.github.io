@@ -141,34 +141,38 @@
             padding: 20px;
             box-sizing: border-box;
             text-align: center;
-            margin-bottom: 20px;
         }
 
         .contact-us-box p {
             margin: 5px 0;
         }
 
-        .contact-us-box .social-icons {
+        .contact-us-box a {
+            color: #ffffff; /* White text color */
+            text-decoration: none;
+        }
+
+        .social-icons {
             display: flex;
             justify-content: center;
             margin-top: 10px;
         }
 
-        .contact-us-box .social-icons a {
+        .social-icons a {
             display: inline-block;
             width: 30px;
             height: 30px;
-            margin-right: 10px;
-            background-color: #ffffff; /* White color */
             border-radius: 50%;
+            background-color: #ffffff; /* White background color */
+            margin: 0 5px;
         }
 
-        .contact-us-box .social-icons .linkedin {
-            background-color: #0077b5; /* Blue color similar to LinkedIn */
+        .social-icons a.linkedin {
+            background-color: #0077b5; /* LinkedIn blue color */
         }
 
-        .contact-us-box .social-icons .twitter {
-            background-color: #1da1f2; /* Blue color similar to Twitter */
+        .social-icons a.twitter {
+            background-color: #1da1f2; /* Twitter blue color */
         }
     </style>
 </head>
@@ -220,7 +224,8 @@
         <div class="repository-box">
             <h2>Folder 5</h2>
             <p>Snippet from README file of Folder 5...</p>
-            <a href="https://github.com/username/repo-5>Learn more</a>
+            <a href="https://github.com/username/repo-5
+">Learn more</a>
         </div>
 
         <div class="repository-box">
@@ -231,9 +236,9 @@
     </div>
 
     <div class="contact-us-box">
-        <p>Contact Us</p>
+        <p>Contact us</p>
         <p>Mail: packet@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/packet.io">https://github.com/packet.io</a></p>
+        <p>Github: <a href="https://github/packet.io">https://github/packet.io</a></p>
         <div class="social-icons">
             <a href="#" class="linkedin"></a>
             <a href="#" class="twitter"></a>

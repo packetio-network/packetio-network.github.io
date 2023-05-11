@@ -121,8 +121,9 @@
         }
 
         .linux-system-software-box {
-            background-color: #000000
+            background-color: #000000;
             color: #ffffff; /* White text color */
+           
             padding: 20px;
             box-sizing: border-box;
             text-align: center;
@@ -147,13 +148,27 @@
             margin: 5px 0;
         }
 
-        .contact-us-box a {
+        .contact-us-box .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .contact-us-box .social-icons a {
             display: inline-block;
             width: 30px;
             height: 30px;
-            border-radius: 50%;
             margin-right: 10px;
             background-color: #ffffff; /* White color */
+            border-radius: 50%;
+        }
+
+        .contact-us-box .social-icons .linkedin {
+            background-color: #0077b5; /* Blue color similar to LinkedIn */
+        }
+
+        .contact-us-box .social-icons .twitter {
+            background-color: #1da1f2; /* Blue color similar to Twitter */
         }
     </style>
 </head>
@@ -205,7 +220,7 @@
         <div class="repository-box">
             <h2>Folder 5</h2>
             <p>Snippet from README file of Folder 5...</p>
-            <a href="https://github.com/username/repo-5">Learn more</a>
+            <a href="https://github.com/username/repo-5>Learn more</a>
         </div>
 
         <div class="repository-box">

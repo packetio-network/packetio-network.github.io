@@ -6,6 +6,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #f2f2f2;
         }
 
         .header {
@@ -13,6 +14,9 @@
             justify-content: flex-start;
             align-items: flex-start;
             flex-wrap: wrap;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 40px;
         }
 
         .header h1 {
@@ -36,33 +40,41 @@
         }
 
         .repository-box {
-            width: calc(33.33% - 10px);
+            width: calc(50% - 10px);
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
             margin-bottom: 20px;
+            background-color: #ffffff;
+            box-sizing: border-box;
+        }
+
+        .repository-box:nth-child(odd) {
+            margin-right: 20px;
         }
 
         .repository-box h2 {
             margin-top: 0;
+            color: #333333;
         }
 
         .repository-box p {
             margin-bottom: 10px;
+            color: #666666;
         }
 
         .repository-box a {
             display: inline-block;
             padding: 5px 10px;
-            background-color: #333;
-            color: #fff;
+            background-color: #333333;
+            color: #ffffff;
             text-decoration: none;
             border-radius: 3px;
             transition: background-color 0.3s ease;
         }
 
         .repository-box a:hover {
-            background-color: #555;
+            background-color: #555555;
         }
     </style>
 </head>
@@ -72,8 +84,9 @@
             <h1>Welcome to my website!</h1>
             <p>Exploring the world of technology and innovation</p>
         </div>
-        <img src="https://via.placeholder.com/1200x200" alt="Image">
     </div>
+
+    <img src="https://via.placeholder.com/1200x200" alt="Image">
 
     <div class="repository-wrapper">
         <div class="repository-box">
@@ -107,11 +120,10 @@
         </div>
 
         <div class="repository-box">
-			<h2>Folder 6</h2>
-			<p>Snippet from README file of Folder 6...</p>
-			<a href="https://github.com/username/repo-6">Read more</a>
-		</div>
-	</div>
+            <h2>Folder 6</h2>
+            <p>Snippet from README file of Folder 6...</p>
+            <a href="https://github.com/username/repo-6">Read more</a>
+        </div>
+    </div>
 </body>
 </html>
-```

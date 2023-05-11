@@ -89,10 +89,28 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background-color: #000000; /* Black background color */
-            color: #ffffff; /* White text color */
             font-size: 18px;
             font-weight: bold;
+        }
+
+        .circle.ebpf {
+            background-color: orange;
+            color: #ffffff; /* White text color */
+        }
+
+        .circle.fd-vpp {
+            background-color: red;
+            color: #ffffff; /* White text color */
+        }
+
+        .circle.kernel-stack {
+            background-color: #0078ad; /* Blue color similar to kernel.org */
+            color: #ffffff; /* White text color */
+        }
+
+        .circle.dpdk {
+            background-color: #282f33; /* Dark gray color similar to dpdk.org */
+            color: #ffffff; /* White text color */
         }
 
         .linux-networking-box {
@@ -108,15 +126,16 @@
     <div class="header">
         <div>
             <h1>Welcome to my website!</h1>
+           
             <p>Exploring the world of technology and innovation</p>
         </div>
     </div>
 
     <div class="circle-container">
-        <div class="circle">eBPF</div>
-        <div class="circle">VPP</div>
-        <div class="circle">Linux Networking</div>
-        <div class="circle">DPDK</div>
+        <div class="circle ebpf">eBPF</div>
+        <div class="circle fd-vpp">fd.io VPP</div>
+        <div class="circle kernel-stack">Kernel Network Stack</div>
+        <div class="circle dpdk">DPDK</div>
     </div>
 
     <div class="linux-networking-box">

@@ -120,55 +120,65 @@
             color: #ffffff; /* White text color */
         }
 
-        .linux-system-software-box {
-            background-color: #000000; /* Black
-            color: #ffffff; /* White text color */
-            padding: 20px;
-            box-sizing: border-box;
-            text-align: center;
-            margin-bottom: 20px;
-        }
+.circle.linkedin {
+    background-color: #0e76a8; /* Blue color similar to LinkedIn */
+    color: #ffffff; /* White text color */
+}
 
-        .linux-system-software {
-            font-size: 24px; /* Increased font size */
-            margin: 0;
-        }
+.circle.twitter {
+    background-color: #1da1f2; /* Blue color similar to Twitter */
+    color: #ffffff; /* White text color */
+}
 
-        .contact-us-box {
-            background-color: #0078ad; /* Blue color similar to kernel.org */
-            color: #ffffff; /* White text color */
-            padding: 20px;
-            box-sizing: border-box;
-            text-align: center;
-            margin-top: 40px;
-        }
+.linux-system-software-box {
+    background-color: #000000; /* Black color */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-        .contact-us-box p {
-            margin: 10px 0;
-        }
+.linux-system-software {
+    font-size: 24px; /* Increased font size */
+    margin: 0;
+}
 
-        .contact-us-box a {
-            color: #ffffff; /* White text color */
-            text-decoration: none;
-        }
+.contact-us-box {
+    background-color: #0078ad; /* Blue color similar to kernel.org */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 40px;
+}
 
-        .contact-us-box a:hover {
-            text-decoration: underline;
-        }
+.contact-us-box p {
+    margin: 10px 0;
+}
 
-        .contact-us-box .social-icons {
-            margin-top: 20px;
-        }
+.contact-us-box a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+}
 
-        .contact-us-box .social-icons a {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            background-color: #ffffff; /* White color */
-            margin-right: 10px;
-            border-radius: 50%;
-        }
-    </style>
+.contact-us-box a:hover {
+    text-decoration: underline;
+}
+
+.contact-us-box .social-icons {
+    margin-top: 20px;
+}
+
+.contact-us-box .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff; /* White color */
+    margin-right: 10px;
+    border-radius: 50%;
+}
+</style>
 </head>
 <body>
     <div class="header">
@@ -181,9 +191,11 @@
     <div class="circle-container">
         <div class="circle kernel-stack">Kernel<br>Network<br>Stack</div>
         <div class="circle dpdk">DPDK</div>
-        <div class="circle fd-vpp">fd.io VPP</div>
+        <div class="circle.fd-vpp">fd.io VPP</div>
         <div class="circle ebpf">eBPF</div>
         <div class="circle smartnic">smartNIC</div>
+        <div class="circle linkedin">LinkedIn</div>
+        <div class="circle twitter">Twitter</div>
     </div>
 
     <div class="linux-system-software-box">
@@ -222,7 +234,6 @@
         </div>
 
         <div class="repository-box">
-           
             <h2>Folder 6</h2>
             <p>Snippet from README file of Folder 6...</p>
             <a href="https://github.com/username/repo-6">Learn more</a>

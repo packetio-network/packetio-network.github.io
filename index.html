@@ -121,17 +121,36 @@
         }
 
         .linux-system-software-box {
-            background-color: #000000;
+            background-color: #000
+            .contact-us-box {
+            background-color: #0078ad; /* Blue color similar to kernel.org */
             color: #ffffff; /* White text color */
             padding: 20px;
             box-sizing: border-box;
             text-align: center;
-            margin-bottom: 20px;
         }
 
-        .linux-system-software {
-            font-size: 24px; /* Increased font size */
-            margin: 0;
+        .contact-us-box p {
+            margin: 5px 0;
+        }
+
+        .contact-us-box .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .contact-us-box .social-icons a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background-color: #ffffff; /* White color */
+        }
+
+        .contact-us-box .social-icons a:last-child {
+            margin-right: 0;
         }
     </style>
 </head>
@@ -192,14 +211,15 @@
             <a href="https://github.com/username/repo-6">Learn more</a>
         </div>
     </div>
+
     <div class="contact-us-box">
         <p>Contact Us</p>
         <p>Mail: packet@gmail.com</p>
-        <p>Github: <a href="https://github.com/packet.io">https://github.com/packet.io</a></p>
+        <p>GitHub: <a href="https://github.com/packet.io">https://github.com/packet.io</a></p>
         <div class="social-icons">
-            <a href="#"><!-- LinkedIn icon --></a>
-            <a href="#"><!-- Twitter icon --></a>
+            <a href="#" class="linkedin"></a>
+            <a href="#" class="twitter"></a>
         </div>
-    </div>	
+    </div>
 </body>
 </html>

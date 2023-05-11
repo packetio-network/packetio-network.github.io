@@ -8,33 +8,35 @@
             margin: 20px;
         }
 
-        h1 {
-            text-align: center;
-        }
-
         .header {
-            text-align: center;
-            margin-bottom: 40px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
         }
 
-        .header img {
-            width: 300px;
-            height: auto;
+        .header h1 {
+            margin: 0;
         }
 
         .header p {
-            font-size: 18px;
+            font-size: 20px;
             margin-top: 10px;
+        }
+
+        .header img {
+            width: 100%;
+            height: auto;
         }
 
         .repository-wrapper {
             display: flex;
-            justify-content: space-between;
             flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         .repository-box {
-            width: calc(50% - 10px);
+            width: calc(33.33% - 10px);
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -66,11 +68,12 @@
 </head>
 <body>
     <div class="header">
-        <img src="https://via.placeholder.com/300" alt="Image">
-        <p>Write-up about the image</p>
+        <div>
+            <h1>Welcome to my website!</h1>
+            <p>Exploring the world of technology and innovation</p>
+        </div>
+        <img src="https://via.placeholder.com/1200x200" alt="Image">
     </div>
-
-    <h1>Welcome to my website!</h1>
 
     <div class="repository-wrapper">
         <div class="repository-box">
@@ -84,6 +87,31 @@
             <p>Snippet from README file of Folder 2...</p>
             <a href="https://github.com/username/repo-2">Read more</a>
         </div>
-    </div>
+
+        <div class="repository-box">
+            <h2>Folder 3</h2>
+            <p>Snippet from README file of Folder 3...</p>
+            <a href="https://github.com/username/repo-3">Read more</a>
+        </div>
+
+        <div class="repository-box">
+            <h2>Folder 4</h2>
+            <p>Snippet from README file of Folder 4...</p>
+            <a href="https://github.com/username/repo-4">Read more</a>
+        </div>
+
+        <div class="repository-box">
+            <h2>Folder 5</h2>
+            <p>Snippet from README file of Folder 5...</p>
+            <a href="https://github.com/username/repo-5">Read more</a>
+        </div>
+
+        <div class="repository-box">
+			<h2>Folder 6</h2>
+			<p>Snippet from README file of Folder 6...</p>
+			<a href="https://github.com/username/repo-6">Read more</a>
+		</div>
+	</div>
 </body>
 </html>
+```

@@ -15,7 +15,7 @@
             align-items: flex-start;
             flex-wrap: wrap;
             background-color: #000000; /* Dark black color */
-            padding: 20px;
+            padding: 40px;
             margin-bottom: 40px;
         }
 
@@ -23,6 +23,8 @@
             margin: 0;
             color: #ffffff; /* White text color */
             font-weight: bold;
+            font-size: 24px;
+            line-height: 1.2;
         }
 
         .header p {
@@ -93,16 +95,6 @@
             font-weight: bold;
         }
 
-        .circle.ebpf {
-            background-color: orange;
-            color: #ffffff; /* White text color */
-        }
-
-        .circle.fd-vpp {
-            background-color: red;
-            color: #ffffff; /* White text color */
-        }
-
         .circle.kernel-stack {
             background-color: #0078ad; /* Blue color similar to kernel.org */
             color: #ffffff; /* White text color */
@@ -113,13 +105,29 @@
             color: #ffffff; /* White text color */
         }
 
+        .circle.fd-vpp {
+            background-color: red;
+            color: #ffffff; /* White text color */
+        }
+
+        .circle.ebpf {
+            background-color: orange;
+            color: #ffffff; /* White text color */
+        }
+
+        .circle.smartnic {
+            background-color: #007db8; /* Blue color similar to Intel.com */
+            color: #ffffff; /* White text color */
+        }
+
         .linux-networking-box {
             width: 100%;
             background-color: #0078ad; /* Blue color similar to kernel.org */
-            color: #ffffff; /* White text color */
+            color: #ffffff
             padding: 20px;
             box-sizing: border-box;
             text-align: center;
+            margin-bottom: 20px;
         }
 
         .linux-system-software {
@@ -137,10 +145,11 @@
     </div>
 
     <div class="circle-container">
-        <div class="circle ebpf">eBPF</div>
-        <div class="circle fd-vpp">fd.io VPP</div>
         <div class="circle kernel-stack">Kernel<br>Network<br>Stack</div>
         <div class="circle dpdk">DPDK</div>
+        <div class="circle fd-vpp">fd.io VPP</div>
+        <div class="circle ebpf">eBPF</div>
+        <div class="circle smartnic">smartNIC</div>
     </div>
 
     <div class="linux-networking-box">

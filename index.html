@@ -31,11 +31,6 @@
             color: #ffffff; /* White text color */
         }
 
-        .header img {
-            width: 100%;
-            height: auto;
-        }
-
         .repository-wrapper {
             display: flex;
             flex-wrap: wrap;
@@ -80,6 +75,19 @@
         .repository-box a:hover {
             background-color: #333333; /* Darker shade of black */
         }
+
+        .circle {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #000000; /* Black background color */
+            color: #ffffff; /* White text color */
+            text-align: center;
+            line-height: 20px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -90,43 +98,47 @@
         </div>
     </div>
 
-    <img src="https://via.placeholder.com/1200x200" alt="Image">
-
     <div class="repository-wrapper">
         <div class="repository-box">
             <h2>Folder 1</h2>
             <p>Snippet from README file of Folder 1...</p>
             <a href="https://github.com/username/repo-1">Learn more</a>
+            <span class="circle">1</span>
         </div>
 
         <div class="repository-box">
             <h2>Folder 2</h2>
             <p>Snippet from README file of Folder 2...</p>
             <a href="https://github.com/username/repo-2">Learn more</a>
+            <span class="circle">2</span>
         </div>
 
-        <div class="repository-box">
+        <        <div class="repository-box">
             <h2>Folder 3</h2>
             <p>Snippet from README file of Folder 3...</p>
             <a href="https://github.com/username/repo-3">Learn more</a>
+            <span class="circle">3</span>
         </div>
 
         <div class="repository-box">
             <h2>Folder 4</h2>
             <p>Snippet from README file of Folder 4...</p>
             <a href="https://github.com/username/repo-4">Learn more</a>
+            <span class="circle">4</span>
         </div>
 
         <div class="repository-box">
             <h2>Folder 5</h2>
             <p>Snippet from README file of Folder 5...</p>
             <a href="https://github.com/username/repo-5">Learn more</a>
+            <span class="circle">5</span>
         </div>
 
         <div class="repository-box">
             <h2>Folder 6</h2>
             <p>Snippet from README file of Folder 6...</p>
             <a href="https://github.com/username/repo-6">Learn more</a>
+            <span class="circle">6</span>
         </div>
     </div>
 </body>

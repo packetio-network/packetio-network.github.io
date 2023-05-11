@@ -12,7 +12,29 @@
             text-align: center;
         }
 
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header img {
+            width: 300px;
+            height: auto;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .repository-wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
         .repository-box {
+            width: calc(50% - 10px);
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -43,30 +65,25 @@
     </style>
 </head>
 <body>
+    <div class="header">
+        <img src="https://via.placeholder.com/300" alt="Image">
+        <p>Write-up about the image</p>
+    </div>
+
     <h1>Welcome to my website!</h1>
 
-    <div class="repository-box">
-        <h2>Folder 1</h2>
-        <p>Snippet from README file of Folder 1...</p>
-        <a href="https://github.com/username/repo-1">Read more</a>
-    </div>
+    <div class="repository-wrapper">
+        <div class="repository-box">
+            <h2>Folder 1</h2>
+            <p>Snippet from README file of Folder 1...</p>
+            <a href="https://github.com/username/repo-1">Read more</a>
+        </div>
 
-    <div class="repository-box">
-        <h2>Folder 2</h2>
-        <p>Snippet from README file of Folder 2...</p>
-        <a href="https://github.com/username/repo-2">Read more</a>
-    </div>
-
-    <div class="repository-box">
-        <h2>Folder 3</h2>
-        <p>Snippet from README file of Folder 3...</p>
-        <a href="https://github.com/username/repo-3">Read more</a>
-    </div>
-
-    <div class="repository-box">
-        <h2>Folder 4</h2>
-        <p>Snippet from README file of Folder 4...</p>
-        <a href="https://github.com/username/repo-4">Read more</a>
+        <div class="repository-box">
+            <h2>Folder 2</h2>
+            <p>Snippet from README file of Folder 2...</p>
+            <a href="https://github.com/username/repo-2">Read more</a>
+        </div>
     </div>
 </body>
 </html>
